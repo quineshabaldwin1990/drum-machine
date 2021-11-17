@@ -10,7 +10,7 @@ let count=0;
 // This function is called every 600ms
 function update() {
     count++;
-    
+
     const metronomeCount = (count % 4) + 1;
     document.querySelector("#count").innerText=metronomeCount;
 
@@ -35,11 +35,6 @@ function update() {
 
     }
 
-}
-
-
-    // Play the 'tick' sound
-    tick.play();
 }
 
 // This function sets up update() to be called every 600ms
